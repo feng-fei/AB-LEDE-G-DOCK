@@ -13,7 +13,7 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 # Modify default host name
-sed -i 's/OpenWrt/G-DCK/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/G-DoCK/g' package/base-files/files/bin/config_generate
 # Modify default wireless name
 sed -i 's/OpenWrt/G-DOCK/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #修正连接数（by ベ七秒鱼ベ）
